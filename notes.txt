@@ -1,1 +1,16 @@
+/usr/local/lib> tree
+.
+├── libxerces-c-3.2.so
+├── libxerces-c.a
+├── libxerces-c.la
+├── libxerces-c.so -> libxerces-c-3.2.so
+└── pkgconfig
+    └── xerces-c.pc
+    
+/usr/local/include> ls
+CMakeLists.txt  Makefile.am  stricmp.h   strnicmp.c   strnicmp.o  towupper.c  XercesCConfig.cmake.in
+libxerces-c.la  Makefile.in  stricmp.lo  strnicmp.h   towlower.c  towupper.h
+Makefile        stricmp.c    stricmp.o   strnicmp.lo  towlower.h  xercesc
 
+menneric@origin:/usr/local/include/xercesc> ls
+dom  framework  internal  NLS  parsers  sax  sax2  util  validators  xinclude
